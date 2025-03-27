@@ -36,3 +36,10 @@ require "nvchad.autocmds"
 vim.schedule(function()
   require "mappings"
 end)
+
+require("lspconfig").clangd.setup({
+  on_attach = function(client, bufnr)
+    print("Clangd attached!")
+  end
+})
+
