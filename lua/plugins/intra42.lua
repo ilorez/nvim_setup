@@ -1,6 +1,7 @@
 return {
     {
     "Diogo-ss/42-header.nvim",
+    lazy=false,
     opts = {
       ---Max header size (not recommended change).
       --length = 80,
