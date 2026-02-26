@@ -43,3 +43,4 @@ require("lspconfig").clangd.setup({
   end
 })
 
+vim.o.relativenumber =true
