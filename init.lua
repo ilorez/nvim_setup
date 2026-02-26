@@ -50,6 +50,7 @@ vim.lsp.config("clangd", {
   end,
 })
 
+vim.o.relativenumber =true
 -- Step 2: Start the client for the current buffer
 -- Note: In a production NvChad setup, this is usually handled 
 -- automatically via FileType autocmds, but this fixes your manual logic.
