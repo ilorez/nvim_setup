@@ -25,3 +25,5 @@ map('n', 'gD', function ()
   vim.lsp.buf.declaration()
 end, { desc = 'Go to declaration' })
 
+-- Add this line to your existing mappings:
+map('n', 'gl', vim.diagnostic.open_float, { desc = "Show full error description" })
